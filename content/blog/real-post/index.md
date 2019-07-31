@@ -1,5 +1,5 @@
 ---
-title: Real Post
+title: First Post Edit
 ---
 
-This is the first real blog post created for Gatsby.
+I want to see how quick this is to make the edit.
