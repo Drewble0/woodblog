@@ -1,8 +1,10 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
     title: `Starter Blog`,
     author: `Andrew Francis`,
-    description: `A first attmept at using Gatsby for a blog.`,
+    description: `This description should change rather quick.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `_ARF`,
@@ -72,6 +74,13 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId:process.env.GATSBY_SPACE_ID,
+        accessToken:process.env.GATSBY_ACCESS_TOKEN,
       },
     },
   ],

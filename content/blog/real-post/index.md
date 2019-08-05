@@ -2,4 +2,4 @@
 title: First Post Edit
 ---
 
-I want to see how quick this is to make the edit.
+Let's make another edit to this blog post.
